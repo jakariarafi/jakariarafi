@@ -18,12 +18,17 @@ jobs:
 
       - name: Generate Contribution Grid Animation
         uses: Platane/snk@v3
-        id: snake-gif
+        id: animation-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=orange
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push Animation to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
         env:
-          # এখানে পান্ডা বা ইমোজি কাস্টমাইজ করার অপশন থাকে
-          # অথবা আপনি সরাসরি Platane/snk এর প্যারামিটার ব্যবহার করতে পারেন
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
