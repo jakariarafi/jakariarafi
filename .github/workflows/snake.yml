@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # প্রতি ১২ ঘণ্টা পর পর গ্রাফ আপডেট হবে
+    - cron: "0 */12 * * *" # প্রতি ১২ ঘণ্টা পর পর আপডেট হবে
   workflow_dispatch:
 
 jobs:
@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: read
     
     steps:
       - name: Checkout
