@@ -25,9 +25,7 @@
 ---
 
 ### 💡 About Me & Philosophy
-- 🚀 **Background:** Computer Science and Engineering graduate from the University of Asia Pacific with a strong passion for intelligent systems.
-- 🎯 **Core Vision:** Bridging the gap between robust hardware systems and responsive modern web interfaces to build impactful real-world software.
-- 🔬 **Research Interest:** Embedded IoT architectures, healthcare monitoring technologies, and data-driven optimization frameworks.
+I'm Jakaria Rafi, a practical person with a strong focus on frontend development, artificial intelligence, and machine learning research, dedicated to building responsive web applications, intelligent IoT systems, and data-driven solutions.
 
 ---
 
@@ -80,7 +78,7 @@
 ### ☕ Support & Connect
 
 <div align="center">
-  <a href="https://www.buymeacoffee.com/rafi" target="_blank">
+  <a href="https://www.buymeacoffee.com/jakariarafe" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" width="180" alt="Buy Me A Coffee" />
   </a>
 </div>
